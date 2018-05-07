@@ -1,10 +1,5 @@
 'use strict';
 
-/* 
-About Me
-    -keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom message that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time."
-*/
-
     // Ask for user's name
     var userName = prompt('Hey, what\'s your name?');
     var userNameResponse = userName;
