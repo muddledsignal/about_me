@@ -132,7 +132,7 @@ About Me
         var favTvChances = 6;
         while (favTvChances > 0) {
         var favTv = prompt('Try to guess one of my favorite TV shows in 6 tries or less.').toLowerCase();
-        var favTvArray = ['30 rock', 'arrested development', 'steven universe'];
+        var favTvArray = ['30 rock', 'arrested development', 'steven universe', 'rick and morty', 'santa clarita diet', 'gravity falls'];
         favTvChances --;
             
         console.log(favTvChances);

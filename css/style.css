@@ -1,6 +1,25 @@
 body {
   background-image: url("../img/concrete_seamless.png");
   background-repeat:repeat;
+  margin: 30px;
+}
+
+div {
+  margin: 10px;
+  background-color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div {
+  border-style: solid;
+  padding: 20px;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -14,3 +33,21 @@ h1 {
   h3 {
     font-size: 112.5%
   }
+
+.column1of2 {
+  width: 40%;
+}
+
+.column2of2 {
+  width: 40%;
+  float: right;
+}
+
+img {
+  width: 100%;
+}
+
+footer li{
+  display: inline-block;
+  text-align: right;
+}
